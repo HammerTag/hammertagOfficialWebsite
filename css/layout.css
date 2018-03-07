@@ -371,11 +371,11 @@ body.royal_preloader {
 	transition : all 0.3s ease-out;
 }
 .cbp-af-header.cbp-af-header-shrink .logo{
-	width:86px;
-	height:16px;
+	/*width:86px;
+	height:16px;*/
 	top:32px;
 	background:url('../images/logo-light.png') no-repeat center center;
-	background-size:86px 16px;
+	background-size: 154px 24px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -425,7 +425,7 @@ body.royal_preloader {
 	z-index:10000;
 	top:50px;
 	background:url('../images/logo-light.png') no-repeat center center;
-	background-size:134px 25px;
+	background-size:154px 25px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
