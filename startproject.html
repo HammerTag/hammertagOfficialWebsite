@@ -1,0 +1,94 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hammertag Design Studio | Bengaluru</title>
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-
+     BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/project.css">
+</head>  
+  <body>
+  <header class="main-header headroom">	
+	 <a href="index.html" class="header-logo" style="background: url('./images/logo-light.png'); background-repeat: no-repeat; background-size: 200px 40px;">HammerTag</a>
+   </header>
+  <div class="container" style="margin-top: 120px;">
+	  <div class="row">
+	            <div class="col-sm-8 col-sm-offset-2">
+	                <h2 class="heading">Start a project</h2>
+	                <hr id="line">
+					<div class="step-instruct" style="margin-top: 30px; margin-bottom: 30px;">
+						<p>Thanks for your interest in working with us. Please complete the details below and we’ll get back to you within one business day.</p>
+					</div>
+	                <form method="post" action="">
+	                    <div class="step-controls">
+						<div class="form-field" data-delay="3">
+							<label for="step1-name">What should we call you?</label>
+							<input type="text" name="name" id="step1-name" class="validate" placeholder="Your name here">
+						</div>
+						<div class="form-field" data-delay="4">
+							<label for="step1-company">What is the name of your company / organisation?</label>
+							<input type="text" name="company" id="step1-company" class="validate" placeholder="Widgets Inc">
+						</div>
+						<div class="form-field" data-delay="4">
+							<label for="step1-company">What are you looking for?</label>
+						    <input type="text" name="desc" id="step1-company" class="validate" placeholder="Creative design">
+						</div>
+						<div class="form-field clearfix" data-delay="5">
+							<label for="step1-email">How shall we contact you?</label>
+							<div class="form-field-col">
+								<input type="email" name="email" id="step1-email" class="validate" placeholder="Email address" required>
+							</div>
+							<div class="form-field-col" data-delay="6">
+								<!-- <label for="step1-phone" class="ui-hidden">Enter your phone number</label> -->
+								<input type="tel" name="number" id="step1-phone" class="validate" placeholder="Phone Number" required>
+							</div>
+						</div>
+					</div>
+					<div class="planner-controls">
+							<button id="submit" type="submit">Submit</button>
+					</div>
+	                </form>
+	    </div>
+    </div> 
+   </div>
+    <div class="planner-contact">
+		<p>
+			<a href="tel: 9738375817">+919738375817 / +918888877665</a>
+			<a href="mailto:sayhi@hammertag.com">sayhi@hammertag.com</a>
+		</p>
+	</div>
+	<div class="desktop_close">
+	<a onclick="goBack();"  class="planner-close" style="text-decoration: none;">Close <span class="hide-handheld">Project Planner</span>
+            <span class="glyphicon glyphicon-remove" style="margin-left: 5px;"></span></a>
+	</div>
+        <div class="mobile_close">
+	<a onclick="goBack();"  class="planner-close" style="text-decoration: none; margin-left: 15px;">
+            <span class="glyphicon glyphicon-remove" style="margin-left: 5px;"></span></a>
+	</div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script type="text/javascript">
+    	function goBack() {
+    		parent.history.back();
+    		return false;
+    	}
+    </script>
+  </body>
+</html>
