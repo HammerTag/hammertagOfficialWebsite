@@ -16,22 +16,22 @@
             });	
 
 
-	/* Scroll animations */
+	// /* Scroll animations */
 	
-      window.scrollReveal = new scrollReveal();
+    //   window.scrollReveal = new scrollReveal();
 	  
-	//Home text fade on scroll	
+	// //Home text fade on scroll	
 	
-	$(window).scroll(function () { 
-        var $Fade = $('.fade-elements');
-        //Get scroll position of window 
-        var windowScroll = $(this).scrollTop();
-        //Slow scroll and fade it out 
-        $Fade.css({
-            'margin-top': -(windowScroll / 0) + "px",
-            'opacity': 1 - (windowScroll / 200)
-        });
-    });	
+	// $(window).scroll(function () { 
+    //     var $Fade = $('.fade-elements');
+    //     //Get scroll position of window 
+    //     var windowScroll = $(this).scrollTop();
+    //     //Slow scroll and fade it out 
+    //     $Fade.css({
+    //         'margin-top': -(windowScroll / 0) + "px",
+    //         'opacity': 1 - (windowScroll / 200)
+    //     });
+    // });	
 
 
 

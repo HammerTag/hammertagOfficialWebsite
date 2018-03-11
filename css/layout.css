@@ -811,8 +811,8 @@ Mobile style's
 	height:70vh;
 }
 .padding-top-bottom{
-	padding-top:120px;
-	padding-bottom:120px;
+	padding-top:30px;
+	padding-bottom:30px;
 }
 .padding-top{
 	padding-top:120px;
@@ -821,8 +821,8 @@ Mobile style's
 	padding-bottom:120px;
 }
 .padding-top-bottom-small{
-	padding-top:70px;
-	padding-bottom:70px;
+	padding-top:30px;
+	padding-bottom:30px;
 }
 .padding-top-small{
 	padding-top:70px;
@@ -5422,12 +5422,30 @@ animated buttons - animate the text inside prev and next buttons
 }
 }
 
+.col{
+	float: left;
+}
 
+.col-50{
+	width: 50%;
+}
 
+.col h2{
+	text-align: left !important;
+	padding-left:10vw;
+	line-height: 50px !important;
+	color: #fff;
+}
 
+.col ul{
+	padding-left:10vw;
+	font-size: 25px;
+	color: #fff;
+}
 
-
-
+.col ul li{
+	line-height: 42px !important;
+}
 
 
 
