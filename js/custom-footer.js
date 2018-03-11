@@ -19,6 +19,10 @@
 
     $(document).ready(function() {
 
+        //Tooltip
+
+		$(".tipped").tipper();
+
         /* Logos Carousel */		
         $("#owl-logos").owlCarousel({
             items : 5,

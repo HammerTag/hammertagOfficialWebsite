@@ -5447,6 +5447,9 @@ animated buttons - animate the text inside prev and next buttons
 	line-height: 42px !important;
 }
 
+.title-text h4{
+	text-align: left !important;
+}
 
 
 
