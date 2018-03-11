@@ -109,13 +109,10 @@
 			e.preventDefault();
 		});
 		//when clicked on mobile-menu, normal menu is shown as a list, classic rwd menu story (thanks mwl from stackoverflow)
-
-
-				
 	
-		//Tooltip
+		// //Tooltip
 
-		$(".tipped").tipper();
+		// $(".tipped").tipper();
 
 
 		/* Logos Carousel */		

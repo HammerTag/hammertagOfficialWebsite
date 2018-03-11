@@ -104,9 +104,9 @@
 
 				
 	
-		//Tooltip
+		// //Tooltip
 
-		$(".tipped").tipper();
+		// $(".tipped").tipper();
 	
 	
 		//Parallax

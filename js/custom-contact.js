@@ -105,9 +105,9 @@
 
 				
 	
-		//Tooltip
+		// //Tooltip
 
-		$(".tipped").tipper();
+		// $(".tipped").tipper();
 
 
 		/* Logos Carousel */		
