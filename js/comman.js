@@ -24,8 +24,8 @@ jQuery(document).ready(function ($) {
     if(!foundUserNavigatedMenu){
       $('#menu-wrap').find('a[href="index.html"]').addClass('curent-multi-page')
     }
-  });
+});
 
-  // load footer.
-  // $('#footer-wrap').load('footer.html')
-})
+//   // load footer.
+//   // $('#footer-wrap').load('footer.html')
+});
