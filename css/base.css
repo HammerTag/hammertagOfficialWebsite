@@ -67,9 +67,19 @@ body {
 }
 /* #Typography
 ================================================== */
+@font-face {
+  font-family: 'GT Walsheim Regular';
+  src: url('font/GTWalsheimPro-Thin.otf')  format('opentype');
+}
+
+@font-face {
+  font-family: 'GT Walsheim Thin';
+  src: url('font/GTWalsheimPro-UltraLight.otf')  format('opentype');
+}
+
 h1, h2, h3, h4, h5, h6 {
 	color: #414141;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'GT Walsheim Regular', sans-serif;
 	font-weight:400;
 	text-align:center;
 }
@@ -78,8 +88,8 @@ h1 { font-size: 40px; line-height:48px;}
 h2 { font-size: 34px; line-height:42px;}
 h3 { font-size: 30px; line-height: 38px;}
 h4 { font-size: 24px; line-height: 32px;}
-h5 { font-size: 16px; line-height: 22px;font-weight:600;}
-h6 { font-size: 14px; line-height: 20px;font-weight:600;}
+h5 { font-size: 23px; line-height: 22px;font-weight:600;}
+h6 { font-size: 22px; line-height: 30px;font-weight:600;text-align:left;}
 
 
 	p {  }
